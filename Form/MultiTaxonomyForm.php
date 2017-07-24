@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpTaxonomy\Multitaxonomy\DbalUtilBundle\Form;
+namespace PhpTaxonomy\MultiTaxonomy\DbalUtilBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
@@ -13,7 +13,7 @@ use Symfony\Component\Form\Extension\Core\Type\UrlType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class MultitaxonomyForm extends AbstractType
+class MultiTaxonomyForm extends AbstractType
 {
     /**
      * {@inheritdoc}
