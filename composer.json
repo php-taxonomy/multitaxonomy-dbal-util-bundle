@@ -27,7 +27,7 @@
     "suggest": {
     },
     "autoload": {
-        "psr-4": { "PhpTaxonomy\\Multitaxonomy\\DbalUtilBundle\\": "" }
+        "psr-4": { "PhpTaxonomy\\MultiTaxonomy\\DbalUtilBundle\\": "" }
     },
     "extra": {
         "branch-alias": {
