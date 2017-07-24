@@ -5,7 +5,7 @@ namespace PhpTaxonomy\MultiTaxonomy\DbalUtilBundle\Model;
 use Doctrine\DBAL\Schema\Schema;
 use Doctrine\DBAL\Schema\Table;
 
-class MultiTaxonomyTables
+class Tables
 {
     protected $schema;
 
