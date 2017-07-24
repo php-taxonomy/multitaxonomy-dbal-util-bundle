@@ -47,7 +47,7 @@ class MultitaxonomyForm extends AbstractType
      */
     public function getBlockPrefix()
     {
-        return 'appbundle_url';
+        return 'multitaxonomydbalutilbundle';
     }
 
 
