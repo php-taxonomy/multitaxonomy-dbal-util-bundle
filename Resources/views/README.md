@@ -10,4 +10,7 @@ $c->loadFromExtension('twig', [
 ]);
 ```
 
-http://fabien.potencier.org/symfony4-directory-structure.html
+* https://symfony.com/doc/current/templating/namespaced_paths.html
+  * https://symfony.com/doc/3.3/templating/namespaced_paths.html
+* https://symfony.com/blog/new-in-symfony-3-3-a-simpler-way-to-get-the-project-root-directory
+* http://fabien.potencier.org/symfony4-directory-structure.html
