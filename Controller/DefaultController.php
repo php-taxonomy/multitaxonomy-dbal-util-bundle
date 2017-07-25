@@ -47,7 +47,7 @@ class DefaultController extends Controller
         // ]);
         // dump('index action');
         $conn = $this->container->get('database_connection');
-        return $this->render('index.html.twig', [
+        return $this->render('@MultiTaxonomyDbalUtilBundle/index.html.twig', [
             'terms' => $this
                 ->container->get('raphia_model')
                 ->getManyToManyWherePager('taxonomy_tree', 'uuid',
