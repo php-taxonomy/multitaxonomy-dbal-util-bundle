@@ -11,15 +11,16 @@
     ],
     "require": {
         "php": "^5.0",
-        "doctrine/doctrine-bundle": "~1.6",
-        "dbal-util/connection": "~0.1",
-        "sensio/framework-extra-bundle":"~3.0|~4.0",
-        "symfony/form": "~2.7|~3.0|~4.0",
-        "symfony/framework-bundle": "~2.7|~3.0|~4.0",
-        "symfony/http-foundation": "~2.7|~3.0|~4.0",
-        "symfony/http-kernel": "~2.7|~3.0|~4.0",
-        "symfony/options-resolver": "~2.7|~3.0|~4.0",
-        "symfony/security": "~2.7|~3.0|~4.0"
+        "doctrine/doctrine-bundle": "^1.6",
+        "dbal-util/connection": "^0.1",
+        "sensio/framework-extra-bundle":"^3.0 || ^4.0",
+        "symfony/form": "^2.7 || ^3.0 || ^4.0",
+        "symfony/framework-bundle": "^2.7 || ^3.0 || ^4.0",
+        "symfony/http-foundation": "^2.7 || ^3.0 || ^4.0",
+        "symfony/http-kernel": "^2.7 || ^3.0 || ^4.0",
+        "symfony/options-resolver": "^2.7 || ^3.0 || ^4.0",
+        "symfony/security": "^2.7 || ^3.0 || ^4.0",
+        "symfony/twig-bundle": "^2.7 || ^3.0 || ^4.0"
     },
     "require-dev": {
         "escapestudios/symfony2-coding-standard": "^2.11"
