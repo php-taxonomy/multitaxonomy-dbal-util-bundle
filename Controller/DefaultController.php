@@ -40,7 +40,7 @@ class DefaultController extends Controller
         //         ->setCurrentPage($request->query->getInt('page', 1))
         // ;
 
-        // return $this->render('index.html.twig', [
+        // return $this->render('@MultiTaxonomyDbalUtilBundle/index.html.twig', [
         //     'terms' => $this
         //         ->container->get('raphia_model')
         //         ->getManyToManyWhereTraversable('taxonomy_tree', 'uuid', 'taxonomy_tree_uuid', 'link_taxonomy_tree_user', 'user_uuid', 'uuid', 'user', ['uuid' => $user->getId()]),
@@ -92,7 +92,7 @@ class DefaultController extends Controller
             return $this->redirectToRoute('taxonomy_show', ['uuid' => $taxonomy_tree_uuid]);
         }
 
-        return $this->render('new.html.twig', [
+        return $this->render('@MultiTaxonomyDbalUtilBundle/new.html.twig', [
             'form' => $form->createView(),
         ]);
     }
@@ -131,7 +131,7 @@ class DefaultController extends Controller
             return $this->redirectToRoute('taxonomy_show', $uuida);
         }
 
-        return $this->render('edit.html.twig', array(
+        return $this->render('@MultiTaxonomyDbalUtilBundle/edit.html.twig', array(
             'term' => $taxonomyTree,
             'edit_form' => $editForm->createView(),
             'delete_form' => $deleteForm->createView(),
@@ -173,7 +173,7 @@ class DefaultController extends Controller
                     //'link_owned_url_taxonomy', 'url_uuid', 'uuid', 'owned_url', 'url_uuid', 'uuid', 'url',
                     //['uuid' => $taxonomyTree['synonym_uuid']]));
 
-        return $this->render('show.html.twig', [
+        return $this->render('@MultiTaxonomyDbalUtilBundle/show.html.twig', [
             'term' => $taxonomyTree,
             'uRLs' => $this
                 ->container->get('raphia_model')
