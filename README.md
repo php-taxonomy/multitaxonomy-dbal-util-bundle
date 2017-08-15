@@ -1,3 +1,3 @@
 # Obsolete!
-# multitaxonomy-dbal-util-bundle
-Multitaxonomy for DBAL-Util persistence
+# multitaxonomy-doctrine-dbal-util-bundle
+Multitaxonomy for Doctrine-DBAL-Util persistence
