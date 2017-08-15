@@ -1,18 +1,18 @@
 {
-    "name": "php-taxonomy/multitaxonomy-dbal-util-bundle",
+    "name": "php-taxonomy/multitaxonomy-doctrine-dbal-util-bundle",
     "type": "symfony-bundle",
     "description": "Multitaxonomy for DBAL-Util persistence",
     "keywords": ["taxonomy", "classification", "category", "tag", "dbal-util"],
-    "homepage": "https://github.com/php-taxonomy/multitaxonomy-dbal-util-bundle",
+    "homepage": "https://github.com/php-taxonomy/multitaxonomy-doctrine-dbal-util-bundle",
     "license": "ISC",
     "authors": [
         {"name": "Jean-bernard Addor"},
-        {"name": "Community", "homepage": "https://github.com/php-taxonomy/multitaxonomy-dbal-util-bundle"}
+        {"name": "Community", "homepage": "https://github.com/php-taxonomy/multitaxonomy-doctrine-dbal-util-bundle"}
     ],
     "require": {
         "php": "^5.0",
         "doctrine/doctrine-bundle": "^1.6",
-        "dbal-util/connection": "^0.1",
+        "doctrine-dbal-util/connection": "^0.1",
         "sensio/framework-extra-bundle":"^3.0 || ^4.0",
         "symfony/form": "^2.7 || ^3.0 || ^4.0",
         "symfony/framework-bundle": "^2.7 || ^3.0 || ^4.0",
@@ -28,7 +28,7 @@
     "suggest": {
     },
     "autoload": {
-        "psr-4": { "PhpTaxonomy\\MultiTaxonomy\\DbalUtilBundle\\": "" }
+        "psr-4": { "PhpTaxonomy\\MultiTaxonomy\\DoctrineDbalUtilBundle\\": "" }
     },
     "extra": {
         "branch-alias": {
